@@ -19,7 +19,7 @@ def train_model():
 model, iris = train_model()
 
 # UI
-st.title("🌸 Iris Flower Species Predictor")
+st.title("Iris Flower Species Predictor")
 st.write("Input flower measurements to classify the species.")
 
 sepal_length = st.slider("Sepal Length (cm)", 4.0, 8.0, 5.8)
